@@ -1,7 +1,7 @@
 Myapp::Application.routes.draw do
 
   resources :addresses
-  resources :status, :only => [ :show] 
+  resource :status, :only => [:show] 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
